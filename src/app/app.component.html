@@ -407,16 +407,8 @@
   <h2>Goals</h2>
 
   <div class="card-container">
-    <div>
-      <h1>My Goals</h1>
-      <hr />
-      <ul>
-        <li *ngFor="let goal of goals">
-          {{ goal.name }}
-        </li>
-      </ul>
-      <p *ngIf = "goals.length > 5">You have too many goals!</p>
-    </div>
+    <!-- content goes here -->
+    <app-goal></app-goal>
   </div>
 
   <!-- Footer -->
