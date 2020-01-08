@@ -16,7 +16,7 @@
         <app-goal-detail
           *ngIf="goal.showDescription"
           [goal]="goal"
-          (isComplete)="completeGoal($event, i)"
+          (isComplete)="deleteGoal($event, i)"
         ></app-goal-detail>
       </div>
     </ul>
